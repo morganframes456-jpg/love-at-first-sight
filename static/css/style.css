@@ -1061,7 +1061,42 @@ audio {
     filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.4));
 }
 
+@media screen and (max-width: 600px) {
 
+    .chapter-container {
+        width: 94% !important;
+        margin: 10px auto !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+
+    .chapter-container p {
+        width: 100% !important;
+        margin: 0 0 18px 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+    }
+
+    .chapter-container h1,
+    .chapter-container h2 {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .chapter-navigation {
+        width: 100% !important;
+    }
+
+    .nav-button {
+        width: 100% !important;
+        margin: 8px 0 !important;
+        box-sizing: border-box !important;
+        font-size: 17px !important;
+        padding: 15px !important;
+    }
+}
 
 
 
