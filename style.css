@@ -177,3 +177,68 @@ color:#888;
         height: auto;
     }
 }
+
+/* ===== MOBILE CHAPTER FIX ===== */
+
+@media screen and (max-width: 600px) {
+
+    .chapter-container {
+        width: 94% !important;
+        margin: 15px auto !important;
+        padding: 20px 14px !important;
+        box-sizing: border-box !important;
+    }
+
+    .chapter-container h1 {
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+    }
+
+    .chapter-container h2 {
+        font-size: 23px !important;
+        line-height: 1.3 !important;
+    }
+
+    .chapter-container p {
+        font-size: 18px !important;
+        line-height: 1.8 !important;
+        margin-bottom: 22px !important;
+    }
+
+    .chapter-quote {
+        font-size: 17px !important;
+        line-height: 1.7 !important;
+        padding: 18px !important;
+        margin: 20px 0 !important;
+    }
+
+    .scene-info {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+    }
+
+    .nav-button {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 16px 12px !important;
+        margin: 10px 0 !important;
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+
+    .chapter-navigation {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 5px !important;
+    }
+
+    .end-text {
+        font-size: 18px !important;
+    }
+
+    .author-signature {
+        font-size: 15px !important;
+    }
+}
