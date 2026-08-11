@@ -1,0 +1,1 @@
+console.log("THE 20 LAWS OF SUCCESS");

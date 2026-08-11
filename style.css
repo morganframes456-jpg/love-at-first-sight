@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0a0a0a;
+color:white;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(135deg,#000,#111,#1e293b);
+}
+
+.hero h1{
+font-size:34px;
+color:gold;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#ddd;
+font-size:18px;
+}
+
+.intro{
+padding:25px;
+line-height:1.8;
+}
+
+.intro h2{
+color:gold;
+margin-bottom:15px;
+}
+
+.laws{
+padding:20px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.law-card{
+background:#151515;
+padding:18px;
+border-radius:18px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+border:1px solid gold;
+transition:.3s;
+}
+
+.law-card:hover{
+transform:scale(1.03);
+background:gold;
+color:black;
+}
+
+.book-page{
+padding:25px;
+line-height:1.9;
+}
+
+.book-page h1{
+color:gold;
+margin-bottom:10px;
+}
+
+.book-page h2{
+margin-bottom:20px;
+}
+
+.quote{
+background:#111;
+padding:20px;
+border-left:4px solid gold;
+margin:20px 0;
+font-style:italic;
+}
+
+.story{
+background:#151515;
+padding:20px;
+border-radius:15px;
+margin-top:20px;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:30px;
+padding:12px 20px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:#888;
+}

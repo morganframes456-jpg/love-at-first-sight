@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter Two</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body class="chapter-page">
+<audio id="backgroundMusic" autoplay loop>
+    <source src="{{ url_for('static', filename='music/story.mp3') }}" type="audio/mpeg">
+</audio>
+
+<script>
+    const music = document.getElementById("backgroundMusic");
+    music.volume = 0.15;
+</script>
+<div class="reading-progress">
+    <div class="reading-progress-bar"></div>
+</div>
+
+<div class="chapter-container">
+
+    <h1>Chapter Two</h1>
+    <h2>Something Was Changing</h2>
+
+    <div class="chapter-ornament">
+        ✦ ───── ♡ ───── ✦
+    </div>
+
+    <div class="scene-info">
+        <span>KISUBI HIGH SCHOOL</span>
+        <span>•</span>
+        <span>THE DAYS THAT FOLLOWED</span>
+    </div>
+
+    <div class="chapter-divider"></div>
+
+    <div class="chapter-quote">
+        Some friendships begin quietly, before we realize
+        how important they are becoming.
+    </div>
+
+    <p>
+        After that first meeting, life at Kisubi High School
+        continued as usual. Lessons continued, students moved
+        around the school compound, and every day brought
+        something new.
+    </p>
+
+    <p>
+        But for Kevin, something had quietly changed.
+    </p>
+
+    <p>
+        He had started noticing Diana more than he noticed
+        before. Whenever he saw her around school, he would
+        remember their first meeting and the unexpected moment
+        that had brought them together.
+    </p>
+
+    <p>
+        Diana also seemed to notice Kevin whenever they crossed
+        paths. Sometimes they would simply smile at each other.
+        Other times, they would stop and talk for a few minutes
+        before continuing with whatever they were doing.
+    </p>
+
+    <p>
+        Their conversations were simple. They talked about
+        school, friends, classes and the ordinary things that
+        filled their days.
+    </p>
+
+    <p>
+        Yet those ordinary conversations slowly became some
+        of Kevin's favorite moments.
+    </p>
+
+    <p>
+        Morgan and Iman began noticing how often Kevin and
+        Diana were around each other.
+    </p>
+
+    <p>
+        They would sometimes tease Kevin about it, but Kevin
+        usually tried to act as though nothing unusual was
+        happening.
+    </p>
+
+    <p>
+        Deep down, however, he knew that Diana was becoming
+        someone special in his life.
+    </p>
+
+    <p>
+        Days passed, and the friendship between Kevin and
+        Diana continued to grow.
+    </p>
+
+    <p>
+        The basketball pitch became one of the places where
+        they often met. They would spend time there talking
+        and laughing with their friends.
+    </p>
+
+    <p>
+        There was no pressure and no plan. They were simply
+        enjoying each other's company.
+    </p>
+
+    <p>
+        Kevin began to look forward to seeing Diana every day.
+        Sometimes he would find himself wondering whether
+        she felt the same way about him.
+    </p>
+
+    <p>
+        But he kept those thoughts to himself.
+    </p>
+
+    <p>
+        Diana was also becoming more comfortable around Kevin.
+        The shyness that had surrounded their first meeting
+        slowly began to disappear whenever they were together.
+    </p>
+
+    <p>
+        They were no longer complete strangers.
+    </p>
+
+    <p>
+        They had become close friends.
+    </p>
+
+    <p>
+        Still, Kevin could feel that his feelings were
+        beginning to change.
+    </p>
+
+    <p>
+        What he felt for Diana was becoming deeper than the
+        friendship he had originally expected.
+    </p>
+
+    <p>
+        He didn't know whether he should tell her.
+    </p>
+
+    <p>
+        He was afraid that saying too much could change the
+        friendship they had built.
+    </p>
+
+    <p>
+        So Kevin kept quiet and allowed the days to continue.
+    </p>
+
+    <p>
+        Then came the announcement that everyone had been
+        waiting for.
+    </p>
+
+    <p>
+        There was going to be a dance evening at school.
+    </p>
+
+    <p>
+        The news quickly spread among the students, and the
+        school became filled with excitement.
+    </p>
+
+    <p>
+        For Kevin, however, the dance meant something more.
+    </p>
+
+    <p>
+        He began wondering whether the evening would finally
+        give him the courage to tell Diana what he really felt.
+    </p>
+
+    <p>
+        As the day of the dance approached, Kevin became more
+        thoughtful.
+    </p>
+
+    <p>
+        He knew that sooner or later, he would have to face
+        the feelings he had been keeping inside.
+    </p>
+
+    <p>
+        What had started as a simple accident on a Thursday
+        evening had grown into something neither Kevin nor
+        Diana could completely ignore.
+    </p>
+
+    <p>
+        And now, the dance evening was waiting.
+    </p>
+
+    <p>
+        Neither of them knew that the conversation that would
+        happen that night would change everything.
+    </p>
+
+    <div class="chapter-ending">
+
+        <div class="end-ornament">
+            ✦ ───── ♡ ───── ✦
+        </div>
+
+        <div class="end-text">
+            End of Chapter Two
+        </div>
+
+        <div class="author-signature">
+            MORGAN FRAMES
+        </div>
+
+        <div class="chapter-navigation">
+
+            <a href="/chapter1" class="nav-button">
+                ← Previous Chapter
+            </a>
+
+            <a href="/" class="nav-button">
+                Back to Home
+            </a>
+
+            <a href="/chapter3" class="nav-button">
+                Next Chapter →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+<script>
+window.addEventListener("scroll",function(){
+    const scrollTop = window.scrollY;
+    const pageHeight = document.documentElement.scrollHeight- window.innerHeight;
+    const progress = (scrollTop / pageHeight) * 100;
+document.querySelector(".reading-progress-bar").style.width = progress + "%"
+});
+</script>
+</body>
+</html>

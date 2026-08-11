@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Author's Note | LOVE AT FIRST SIGHT</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="disclaimer-page">
+<audio id="backgroundMusic" autoplay loop>
+    <source src="{{ url_for('static', filename='music/story.mp3') }}" type="audio/mpeg">
+</audio>
+
+<script>
+    const music = document.getElementById("backgroundMusic");
+    music.volume = 0.15;
+</script>
+    <div class="disclaimer-container">
+
+        <div class="disclaimer-ornament">
+            ✦ ───── ♡ ───── ✦
+        </div>
+
+        <p class="disclaimer-label">
+            BEFORE YOU BEGIN
+        </p>
+
+        <h1>Author's Note</h1>
+
+        <div class="disclaimer-divider"></div>
+
+        <p class="disclaimer-intro">
+            Welcome to <strong>LOVE AT FIRST SIGHT.</strong>
+        </p>
+
+        <p>
+            Before you begin reading, I want you to know something about
+            the person behind these pages.
+        </p>
+
+        <p>
+            I am just a <strong>14-year-old writer</strong> with a love for
+            stories, creativity, and the courage to put my imagination into
+            words.
+        </p>
+
+        <p>
+            This book is not written by someone who knows everything about
+            life. It is simply a story created by a young person who wanted
+            to tell a story and share a lesson along the way.
+        </p>
+
+        <p>
+            So please don't judge the book as if it was written by a
+            professional novelist. Read it for the story, the emotions,
+            the imagination, and most importantly, the message behind it.
+        </p>
+
+        <div class="disclaimer-quote">
+            "Every great writer begins as someone who simply decided to write."
+        </div>
+
+        <p>
+            Some parts of this story are fictional, and some ideas are
+            inspired by the experiences and observations of growing up.
+            The characters and events are created for storytelling purposes.
+        </p>
+
+        <p>
+            Most importantly, this book is not here to tell young people to
+            rush into relationships. Growing up takes time, and everything
+            has its season.
+        </p>
+
+        <p class="disclaimer-final">
+            Read the story. Feel the journey. Take the lesson.
+        </p>
+
+        <div class="disclaimer-signature">
+            <span>Written by</span>
+            <strong>MORGAN FRAMES</strong>
+        </div>
+
+        <div class="disclaimer-buttons">
+
+            <a href="/chapter1" class="start-reading-button">
+                Continue to Chapter One →
+            </a>
+
+            <a href="/" class="back-home-button">
+                ← Back to Home
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
